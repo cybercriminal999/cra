@@ -475,7 +475,7 @@ Clear-Host
 
 # ===== STEP 4: AUTORUN CHECK =====
 
-Write-ColoredLine "Step 4: Autorun Check - by @ravenader1" Cyan
+Write-ColoredLine "Step 3: Autorun Check - by @ravenader1" Cyan
 Write-ColoredLine "INSTRUCTION: Wait for the bottom left text to say 'Ready', scroll slowly down, then close the window when finished." Yellow
 Write-Host ""
 
@@ -579,7 +579,7 @@ Clear-Host
 
 # ===== STEP 5: WINOBJ CHECK =====
 
-Write-ColoredLine "Step 5: WinObj Check - by @ravenader1" Cyan
+Write-ColoredLine "Step 4: WinObj Check - by @ravenader1" Cyan
 Write-ColoredLine "INSTRUCTION: Navigate to Sessions > 0 > Dos Devices > Click on every folder, then close the window." Yellow
 Write-Host ""
 
@@ -642,7 +642,7 @@ if ($actualExe) {
 Wait-ForEnter -PromptMessage "Press Enter to continue."
 Clear-Host
 
-# ===== STEP 6: PROCESS EXPLORER =====
+# ===== STEP 5: PROCESS EXPLORER =====
 
 Write-ColoredLine "Step 6: Process Explorer - by @ravenader1" Cyan
 Write-ColoredLine "INSTRUCTION: Wait for Process Explorer to open. Scroll to the bottom, then close the window." Yellow
