@@ -644,7 +644,7 @@ Clear-Host
 
 # ===== STEP 5: PROCESS EXPLORER =====
 
-Write-ColoredLine "Step 6: Process Explorer - by @ravenader1" Cyan
+Write-ColoredLine "Step 5: Process Explorer - by @ravenader1" Cyan
 Write-ColoredLine "INSTRUCTION: Wait for Process Explorer to open. Scroll to the bottom, then close the window." Yellow
 Write-Host ""
 
